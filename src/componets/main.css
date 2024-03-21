@@ -1,0 +1,177 @@
+.header{
+    width: 75%;
+    margin-left: 5%;
+    margin-top: 39px;
+    margin-bottom: 30px;
+
+    font-family: 'Gilroy-Bold',sans-serif;
+    font-weight: bold;
+
+    /* Black */
+
+    color: #070707;
+
+}
+
+h1{
+    font-family: 'Arial Black';
+
+    font-weight: 900;
+    font-size: 47.3392px;
+    line-height: 59px;
+
+    /* Black */
+
+    color: #070707;
+
+}
+
+.header b{
+    transform: rotate(-90deg);
+}
+
+.header b span{
+    color: #828282;
+}
+
+.header p{
+    font-weight: 600;
+    margin-top: 54px;
+}
+
+@media (max-width: 767px) {
+    .header{
+        flex-direction: column;
+    }
+
+    .header b{
+        transform: rotate(0);
+    }
+}
+
+.main__img{
+    width: 75%;
+    margin-left: 5%;
+}
+
+.main__img img{
+    width: 100%;
+    margin-bottom: 104px;
+}
+
+
+.main__about{
+    width: 100%;
+    background: #F6F6F6;
+    padding: 120px 479px 107px 479px;
+
+}
+
+.main__about h2{
+
+    font-family: 'Gilroy-Bold',sans-serif;
+    font-size: 34px;
+    text-align: center;
+
+    font-weight: 600;
+    /* Black */
+
+    color: #070707;
+
+}
+
+.main__about p{
+    margin-top: 17px;
+
+    font-family: 'Gilroy-Bold',sans-serif;
+    font-size: 18px;
+    text-align: center;
+
+    font-weight: 400;
+    /* Black */
+
+    color: #070707;
+}
+
+@media (max-width: 767px) {
+
+    .main__about{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .main__about h2{
+        font-size: 17px;
+    }
+
+    .main__about p{
+        font-size: 9px;
+    }
+}
+
+.main__cards{
+    margin-top: 91px;
+    margin-bottom: 110px;
+}
+
+.main__cards h2{
+    font-family: 'Gilroy-Bold',sans-serif;
+    font-size: 34px;
+    text-align: center;
+
+    font-weight: 600;
+    /* Black */
+
+    color: #070707;
+}
+
+.main__cards p{
+    font-family: 'Gilroy-Bold',sans-serif;
+    font-size: 18px;
+    text-align: center;
+
+    font-weight: 400;
+    margin-top: 69px;
+    margin-bottom: 83px;
+    /* Black */
+
+    color: #070707;
+}
+
+.container-fluid{
+    background: #F6F6F6;
+    padding: 112px 250px 96px 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-fluid h2{
+    margin-bottom: 47px;
+
+    font-family: 'Gilroy-Bold',sans-serif;
+    font-size: 34px;
+    text-align: center;
+
+    font-weight: 600;
+    /* Black */
+
+    color: #070707;
+}
+
+.container-fluid img{
+    width: 75%;
+    margin-left: 10%;
+}
+.container-fluid p{
+    margin-top: 44px;
+    font-family: 'Gilroy-Bold',sans-serif;
+    font-size: 18px;
+    text-align: center;
+
+    font-weight: 400;
+    margin-bottom: 83px;
+    /* Black */
+
+    color: #070707;
+}

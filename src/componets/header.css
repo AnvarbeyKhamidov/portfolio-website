@@ -1,0 +1,31 @@
+.navbar{
+    margin: 32.99px  32px ;
+}
+
+.navbar-nav  li a{
+    margin-right: 115px;
+
+
+}
+
+
+
+.header-line{
+    width: 75%;
+    margin-left: 5%;
+    border: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+@media (max-width: 767px) {
+    .navbar ul li a{
+        width: 80%;
+        text-align: center;
+    }
+
+    .header-line{
+        display: none;
+    }
+}
+
+

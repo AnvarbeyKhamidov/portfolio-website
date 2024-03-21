@@ -1,0 +1,58 @@
+.contact-text{
+    margin-top: 114px;
+    padding-bottom: 20px;
+    font-family: 'Gilroy-Bold';
+font-size: 34px;
+line-height: 42px;
+text-align: center;
+
+/* Black */
+
+color: #070707;
+}
+.footer-texts{
+    padding-bottom: 42px;
+    text-align: center;
+    font-family: 'Gilroy-Medium';
+font-size: 18px;
+line-height: 22px;
+
+/* Black */
+
+color: #070707;
+}
+
+
+
+
+
+
+
+.button{
+    border-radius: 40px;
+    padding: 10px 20px;
+    color: white;
+    background: #070707;
+    margin-bottom: 85px;
+}
+.footer-btn{
+    text-align: center;
+
+}
+.footer-text2{
+    font-family: 'Gilroy-Medium';
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+margin-top: 45px;
+
+color: #828282;
+
+}
+
+
+@media (max-width: 767px) {
+    .icons {
+        margin: 0 auto;
+    }
+}

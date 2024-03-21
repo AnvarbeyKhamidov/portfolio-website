@@ -1,0 +1,54 @@
+
+@media (min-width: 576px) {
+
+    .foto{
+        max-width: 576px;
+    }
+    .foots{
+        text-align: center;
+    }
+    
+    .fluid{
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .foots{
+        text-align: center;
+    }
+    
+    .foto{
+        max-width: 768px;
+    }
+    .fluid{
+        max-width: 100%;
+    }
+ }
+
+@media (min-width: 992px) { 
+    .foots{
+        text-align: center;
+    }
+    .foto{
+        max-width: 992px;
+    }
+    
+    .fluid{
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .foots{
+        text-align: center;
+    }
+   
+    .fluid{
+        max-width: 100%;
+    }
+    .foto{
+        max-width: 1200px;
+    }
+ }
